@@ -1,0 +1,22 @@
+<mxfile host="Electron" modified="2023-12-15T18:11:38.657Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="IpYWZ0F_z7QxnaxrrckA" version="21.6.8" type="device">
+  <diagram name="Страница — 1" id="YkSAqCkSQ4VXfLVFrp_p">
+    <mxGraphModel dx="1036" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yfgFBPFp4qAgtDOHmfAv-1" value="&lt;h1&gt;Цель для клиента&lt;/h1&gt;&lt;p&gt;Быстро получить ответ, техподдержку, консультацию по вопросу разработки, программировании или работы программы&lt;br&gt;&lt;br&gt;Техподдержка по разным сервисам в одном окне&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="250" width="190" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="yfgFBPFp4qAgtDOHmfAv-2" value="&lt;h1&gt;Цель для разработчиков&lt;/h1&gt;&lt;p&gt;Быстрый заработок на платных ответах и фиксация времени техподержки&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="250" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yfgFBPFp4qAgtDOHmfAv-3" value="Мои темы (вопросы)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="630" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfgFBPFp4qAgtDOHmfAv-4" value="карточка" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="630" width="230" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
