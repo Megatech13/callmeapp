@@ -1,10 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>questions</title>
-</head>
-<body>
- здесь страница с вопросами
-</body>
-</html>
+{% extends 'main/layout.html' %}
+{% block title %}Мои вопросы{% endblock %}
+{% block content %}
+<div class="container my-5">
+  <div class="list-group">
+    {% for el in users %}
+    <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-4" aria-current="true">
+      <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+      <div class="d-flex gap-2 w-100 justify-content-between">
+        <div>
+          <h6 class="mb-0">{{ el.name }}</h6>
+          <p class="mb-0 opacity-75">{{ el.description }}</p>
+        </div>
+        <small class="opacity-50 text-nowrap">{{ el.price }}</small>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

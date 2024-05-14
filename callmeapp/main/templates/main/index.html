@@ -1,10 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'main/layout.html' %}
+{% block title %}Главная страница{% endblock %}
+{% block content %}
+<div class="container my-5">
+  <div class="p-5 text-center bg-body-tertiary rounded-3">
+    <h1 class="text-body-emphasis">{{ title }}</h1>
+    <p class="col-lg-8 mx-auto fs-5 text-muted">
+      Просто напишите специальность или вопрос, найдите специалиста и просто звоните ему
+    </p>
+    <div class="col-lg-10 mx-auto mb-4">
+      <div class="input-group has-validation">
+        <input type="text" class="form-control" id="username" placeholder="Поиск" required="">
+        <div class="invalid-feedback">Поиск</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container my-5">
+  <div class="list-group">
+    {% for el in users %}
+    <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-4" aria-current="true">
+      <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+      <div class="d-flex gap-2 w-100 justify-content-between">
+        <div>
+          <h6 class="mb-0">{{ el.name }}</h6>
+          <p class="mb-0 opacity-75">{{ el.description }}</p>
+        </div>
+        <small class="opacity-50 text-nowrap">{{ el.price }}</small>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
